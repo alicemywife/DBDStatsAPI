@@ -12,8 +12,12 @@ __pycache__/
 #SQLITE
 **/*.db-shm
 **/*.db-wal
+*.db
+*.database
+*.sqlite
 
 # customfiles
 **/session.json
 /core/services/config.py
 /data/codes.json
+
