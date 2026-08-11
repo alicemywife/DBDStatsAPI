@@ -1,17 +1,18 @@
-Retrieving statistics from the official website https://stats.deadbydaylight.com/statistics/, saving each match to the database, and easily working with the data.
-All match data can be sent as a convenient message in a Telegram bot.
+Retrieves statistics from the official website https://stats.deadbydaylight.com/statistics/, saves each match to the database, and provides convenient access to the collected data. Match statistics can also be sent as a formatted message through a Telegram bot.
 
-Planned:
-• Create an overlay for displaying brief statistics in streaming software.
-• Create a local SaaS application for detailed work with game statistics.
-• Rewrite the hotkey system:
----> • Use a more advanced lib for keyboard
----> • Limit hotkey usage to only when the game window is active
+### Planned
 
-How To Use:
-• To use this feature, you will need to obtain a refresh token from any request on the game statistics website.
+* Create an overlay for displaying brief statistics in streaming software.
+* Create a local SaaS application for more detailed analysis and management of game statistics.
+* Rewrite the hotkey system:
 
-P.S.
-The MD will be updated before the repository is published.
+  * Use a more advanced keyboard input library.
+  * Limit hotkey activation to when the game window is active.
 
-The project has not been reviewed for publication; only future updates will focus on refactoring.
+### How to Use
+
+To use this feature, you need to obtain a refresh token from a request made to the game's statistics website.
+
+> **Note:** The README will be updated before the repository is published.
+
+The project was originally developed as a personal tool and has not been specifically prepared for publication. Only future updates will focus on refactoring and improving the project structure.
