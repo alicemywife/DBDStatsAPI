@@ -1,0 +1,816 @@
+[
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "MatchPayload",
+        "importPath": "core.db.models",
+        "description": "core.db.models",
+        "isExtraImport": true,
+        "detail": "core.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy.sql.sqltypes",
+        "description": "sqlalchemy.sql.sqltypes",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.sqltypes",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "TypeAdapter",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "pydantic.dataclasses",
+        "description": "pydantic.dataclasses",
+        "isExtraImport": true,
+        "detail": "pydantic.dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "TypeAliasType",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "InputRichMessage",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "MatchPayloadDAO",
+        "importPath": "core.db.hDatabase",
+        "description": "core.db.hDatabase",
+        "isExtraImport": true,
+        "detail": "core.db.hDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "core.db.hDatabase",
+        "description": "core.db.hDatabase",
+        "isExtraImport": true,
+        "detail": "core.db.hDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "MatchPayloadDAO",
+        "importPath": "core.db.hDatabase",
+        "description": "core.db.hDatabase",
+        "isExtraImport": true,
+        "detail": "core.db.hDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "ModelItem",
+        "importPath": "core.parser",
+        "description": "core.parser",
+        "isExtraImport": true,
+        "detail": "core.parser",
+        "documentation": {}
+    },
+    {
+        "label": "StatsParser",
+        "importPath": "core.parser",
+        "description": "core.parser",
+        "isExtraImport": true,
+        "detail": "core.parser",
+        "documentation": {}
+    },
+    {
+        "label": "StatsParser",
+        "importPath": "core.parser",
+        "description": "core.parser",
+        "isExtraImport": true,
+        "detail": "core.parser",
+        "documentation": {}
+    },
+    {
+        "label": "DBDStats",
+        "importPath": "core.stats_api",
+        "description": "core.stats_api",
+        "isExtraImport": true,
+        "detail": "core.stats_api",
+        "documentation": {}
+    },
+    {
+        "label": "DBDStats",
+        "importPath": "core.stats_api",
+        "description": "core.stats_api",
+        "isExtraImport": true,
+        "detail": "core.stats_api",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterLoadout",
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "isExtraImport": true,
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Perk",
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "isExtraImport": true,
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "LastMatchesModel",
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "isExtraImport": true,
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ModelItem",
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "isExtraImport": true,
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "ClientSession",
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "isExtraImport": true,
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "ClientSession",
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "isExtraImport": true,
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "importPath": "yarl",
+        "description": "yarl",
+        "isExtraImport": true,
+        "detail": "yarl",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "importPath": "rich.color",
+        "description": "rich.color",
+        "isExtraImport": true,
+        "detail": "rich.color",
+        "documentation": {}
+    },
+    {
+        "label": "save_last_matches",
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "isExtraImport": true,
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "send_match_info_into_tg",
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "isExtraImport": true,
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "Live",
+        "importPath": "rich.live",
+        "description": "rich.live",
+        "isExtraImport": true,
+        "detail": "rich.live",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "rich.style",
+        "description": "rich.style",
+        "isExtraImport": true,
+        "detail": "rich.style",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "keyboard",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keyboard",
+        "description": "keyboard",
+        "detail": "keyboard",
+        "documentation": {}
+    },
+    {
+        "label": "CloudScraper",
+        "importPath": "cloudscraper",
+        "description": "cloudscraper",
+        "isExtraImport": true,
+        "detail": "cloudscraper",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "kind": 6,
+        "importPath": "core.db.hDatabase",
+        "description": "core.db.hDatabase",
+        "peekOfCode": "class Database:\n    @staticmethod\n    async def create_db():\n        async with engine.begin() as conn:\n            await conn.run_sync(Base.metadata.create_all)\nclass MatchPayloadDAO:\n    @staticmethod\n    async def add(payload: dict):\n        async with asession() as session:\n            matchStartTime = payload.get(\"matchStat\").get(\"matchStartTime\")",
+        "detail": "core.db.hDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "MatchPayloadDAO",
+        "kind": 6,
+        "importPath": "core.db.hDatabase",
+        "description": "core.db.hDatabase",
+        "peekOfCode": "class MatchPayloadDAO:\n    @staticmethod\n    async def add(payload: dict):\n        async with asession() as session:\n            matchStartTime = payload.get(\"matchStat\").get(\"matchStartTime\")\n            if await MatchPayloadDAO.get(matchStartTime=matchStartTime):\n                if not payload.get(\"matchStat\").get('isCustomMatch'):\n                    await MatchPayloadDAO.update(matchStartTime=matchStartTime, payload=payload)\n                    return False \n                return False",
+        "detail": "core.db.hDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "MatchPayload",
+        "kind": 6,
+        "importPath": "core.db.models",
+        "description": "core.db.models",
+        "peekOfCode": "class MatchPayload(Base):\n    __tablename__ = 'basic_payloads'\n    matchStartTime: Mapped[int] = mapped_column(unique=True)\n    payload: Mapped[dict] = mapped_column(JSON)\nclass Asset(Base):\n    __tablename__ = \"assets\"\n    uri: Mapped[str]\n    name: Mapped[str]",
+        "detail": "core.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Asset",
+        "kind": 6,
+        "importPath": "core.db.models",
+        "description": "core.db.models",
+        "peekOfCode": "class Asset(Base):\n    __tablename__ = \"assets\"\n    uri: Mapped[str]\n    name: Mapped[str]",
+        "detail": "core.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "GameType",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class GameType:\n    id: str | None = None\n    name: str | None = None\n@dataclass\nclass Image:\n    path: str | None = None\n@dataclass\nclass Map:\n    id: str | None = None\n    name: str | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Image:\n    path: str | None = None\n@dataclass\nclass Map:\n    id: str | None = None\n    name: str | None = None\n    image: Image | None = None\n@dataclass\nclass MatchStat:\n    gameType: GameType | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Map",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Map:\n    id: str | None = None\n    name: str | None = None\n    image: Image | None = None\n@dataclass\nclass MatchStat:\n    gameType: GameType | None = None\n    isCustomMatch: bool | None = None\n    mapName: str | None = None\n    matchDuration: float | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "MatchStat",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class MatchStat:\n    gameType: GameType | None = None\n    isCustomMatch: bool | None = None\n    mapName: str | None = None\n    matchDuration: float | None = None\n    matchStartTime: int | None = None\n    specialEventId: str | None = None\n    map: Map | None = None\n@dataclass\nclass PostGameStat:",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "PostGameStat",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class PostGameStat:\n    DBD_SlasherScoreCat_Hunter: int | None = None\n    DBD_SlasherScoreCat_Deviousness: int | None = None\n    DBD_SlasherScoreCat_Brutality: int | None = None\n    DBD_SlasherScoreCat_Sacrifice: int | None = None\n    DBD_CamperScoreCat_Objectives: int | None = None\n    DBD_CamperScoreCat_Altruism: int | None = None\n    DBD_CamperScoreCat_Survival: int | None = None\n    DBD_CamperScoreCat_Boldness: int | None = None\n@dataclass",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Emblem",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Emblem:\n    emblem_id: str | None = None\n    emblem_name: str | None = None\n    emblem_quality: str | None = None\n@dataclass\nclass CharacterName:\n    id: str | None = None\n    name: str | None = None\n    image: Image | None = None\n@dataclass",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterName",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class CharacterName:\n    id: str | None = None\n    name: str | None = None\n    image: Image | None = None\n@dataclass\nclass AddOn:\n    id: str | None = None\n    name: str | None = None\n    image: Image | None = None\n@dataclass",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "AddOn",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class AddOn:\n    id: str | None = None\n    name: str | None = None\n    image: Image | None = None\n@dataclass\nclass Image3:\n    path: str | None = None\n    background: str | None = None\n@dataclass\nclass Offering:",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Image3",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Image3:\n    path: str | None = None\n    background: str | None = None\n@dataclass\nclass Offering:\n    id: str | None = None\n    name: str | None = None\n    image: Image3 | None = None\n@dataclass\nclass Image4:",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Offering",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Offering:\n    id: str | None = None\n    name: str | None = None\n    image: Image3 | None = None\n@dataclass\nclass Image4:\n    path: str | None = None\n@dataclass\nclass Perk:\n    id: str | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Image4",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Image4:\n    path: str | None = None\n@dataclass\nclass Perk:\n    id: str | None = None\n    name: str | None = None\n    image: Image4 | None = None\n@dataclass\nclass Power:\n    id: str | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Perk",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Perk:\n    id: str | None = None\n    name: str | None = None\n    image: Image4 | None = None\n@dataclass\nclass Power:\n    id: str | None = None\n    name: str | None = None\n    image: Image4 | None = None\n@dataclass",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Power",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Power:\n    id: str | None = None\n    name: str | None = None\n    image: Image4 | None = None\n@dataclass\nclass CharacterLoadout:\n    addOns: list[AddOn] | None = None\n    offering: Offering | None = None\n    perks: list[Perk] | None = None\n    power: Power | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterLoadout",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class CharacterLoadout:\n    addOns: list[AddOn] | None = None\n    offering: Offering | None = None\n    perks: list[Perk] | None = None\n    power: Power | None = None\n@dataclass\nclass PlayerStatus:\n    id: str | None = None\n    image: Image4 | None = None\n    name: str | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerStatus",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class PlayerStatus:\n    id: str | None = None\n    image: Image4 | None = None\n    name: str | None = None\n@dataclass\nclass PlayerStat:\n    bloodpointsEarned: int | None = None\n    characterLevel: int | None = None\n    platform: str | None = None\n    postGameStat: PostGameStat | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerStat",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class PlayerStat:\n    bloodpointsEarned: int | None = None\n    characterLevel: int | None = None\n    platform: str | None = None\n    postGameStat: PostGameStat | None = None\n    leaderboardScore: int | None = None\n    emblems: list[Emblem] | None = None\n    characterClass: None = Field(None)\n    characterName: CharacterName | None = None\n    playerTimeInMatch: int | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "PostGameStat1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class PostGameStat1:\n    DBD_CamperScoreCat_Objectives: int | None = None\n    DBD_CamperScoreCat_Altruism: int | None = None\n    DBD_CamperScoreCat_Boldness: int | None = None\n    DBD_CamperScoreCat_Survival: int | None = None\n    DBD_SlasherScoreCat_Hunter: int | None = None\n    DBD_SlasherScoreCat_Deviousness: int | None = None\n    DBD_SlasherScoreCat_Brutality: int | None = None\n    DBD_SlasherScoreCat_Sacrifice: int | None = None\n@dataclass",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterName1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class CharacterName1:\n    id: str | None = None\n    name: str | None = None\n    image: Image4 | None = None\n@dataclass\nclass AddOn1:\n    id: str | None = None\n    name: str | None = None\n    image: Image4 | None = None\n@dataclass",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "AddOn1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class AddOn1:\n    id: str | None = None\n    name: str | None = None\n    image: Image4 | None = None\n@dataclass\nclass Image9:\n    path: str | None = None\n    background: str | None = None\n@dataclass\nclass Offering1:",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Image9",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Image9:\n    path: str | None = None\n    background: str | None = None\n@dataclass\nclass Offering1:\n    id: str | None = None\n    name: str | None = None\n    image: Image9 | None = None\n@dataclass\nclass Image10:",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Offering1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Offering1:\n    id: str | None = None\n    name: str | None = None\n    image: Image9 | None = None\n@dataclass\nclass Image10:\n    path: str | None = None\n@dataclass\nclass Perk1:\n    id: str | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Image10",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Image10:\n    path: str | None = None\n@dataclass\nclass Perk1:\n    id: str | None = None\n    name: str | None = None\n    image: Image10 | None = None\n@dataclass\nclass Power1:\n    id: str | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Perk1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Perk1:\n    id: str | None = None\n    name: str | None = None\n    image: Image10 | None = None\n@dataclass\nclass Power1:\n    id: str | None = None\n    name: str | None = None\n    image: Image10 | None = None\n@dataclass",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Power1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class Power1:\n    id: str | None = None\n    name: str | None = None\n    image: Image10 | None = None\n@dataclass\nclass CharacterLoadout1:\n    addOns: list[AddOn1] | None = None\n    offering: Offering1 | None = None\n    perks: list[Perk1] | None = None\n    power: Power1 | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterLoadout1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class CharacterLoadout1:\n    addOns: list[AddOn1] | None = None\n    offering: Offering1 | None = None\n    perks: list[Perk1] | None = None\n    power: Power1 | None = None\n@dataclass\nclass PlayerStatus1:\n    id: str | None = None\n    name: str | None = None\n    image: Image10 | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerStatus1",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class PlayerStatus1:\n    id: str | None = None\n    name: str | None = None\n    image: Image10 | None = None\n@dataclass\nclass OpponentStatItem:\n    bloodpointsEarned: int | None = None\n    characterLevel: int | None = None\n    platform: str | None = None\n    postGameStat: PostGameStat1 | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "OpponentStatItem",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class OpponentStatItem:\n    bloodpointsEarned: int | None = None\n    characterLevel: int | None = None\n    platform: str | None = None\n    postGameStat: PostGameStat1 | None = None\n    leaderboardScore: int | None = None\n    emblems: list[Emblem] | None = None\n    characterClass: None = Field(None)\n    characterName: CharacterName1 | None = None\n    playerTimeInMatch: int | None = None",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ModelItem",
+        "kind": 6,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "class ModelItem:\n    matchStat: MatchStat | None = None\n    playerStat: PlayerStat | None = None\n    opponentStat: list[OpponentStatItem] | None = None\nLastMatchesModel = TypeAliasType(\"Model\", list[ModelItem] | None)",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "LastMatchesModel",
+        "kind": 5,
+        "importPath": "core.schemas.last_matches_schema",
+        "description": "core.schemas.last_matches_schema",
+        "peekOfCode": "LastMatchesModel = TypeAliasType(\"Model\", list[ModelItem] | None)",
+        "detail": "core.schemas.last_matches_schema",
+        "documentation": {}
+    },
+    {
+        "label": "DBDIcons",
+        "kind": 6,
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "peekOfCode": "class DBDIcons:\n    killers = {\n        \"Chuckles\": \"5221958686020244903\",\n        \"Bob\": \"5224606086681629564\",\n        \"Spirit\": \"5222381997996941046\",\n        \"Ghostface\": \"5222378192655913774\",\n        \"HillBilly\": \"5222223719862143498\",\n        \"Nurse\": \"5222155782069458165\",\n        \"Shape\": \"5221935265563579295\",\n        \"Witch\": \"5222100127883235669\",",
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "CustomEmoji",
+        "kind": 6,
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "peekOfCode": "class CustomEmoji:\n    def __init__(self, custom_emoji_id: int):\n        self.custom_emoji_id = custom_emoji_id\n    def __str__(self):\n        return f'<tg-emoji emoji-id=\"{self.custom_emoji_id}\"></tg-emoji>'\nclass DBDDicts:\n    PlayerStatus = {\n        \"VE_Escaped\": \"ESCAPED\",\n        \"VE_Sacrificed\": \"SACRIFICED\",\n        \"VE_Disconnected\": \"DISCONNECTED\",",
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "DBDDicts",
+        "kind": 6,
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "peekOfCode": "class DBDDicts:\n    PlayerStatus = {\n        \"VE_Escaped\": \"ESCAPED\",\n        \"VE_Sacrificed\": \"SACRIFICED\",\n        \"VE_Disconnected\": \"DISCONNECTED\",\n        \"VE_SurrenderLoss\": \"SURRENDER LOSS\",\n        \"VE_Killed\": \"KILLED\",\n        \"VE_SurrenderDraw\": \"SURRENDER DRAW\",\n        \"VE_ManuallyLeftMatch\": \"MANUALLY LEFT MATCH\"\n    }",
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "peekOfCode": "bot = Bot(token=\"8374418085:AAHWaowz8jIEtCyrr3O0laBuRpwU4ANn824\")\nid = 8529684742\nlogger = logging.getLogger(__name__)\nasync def get_match(matchStartTime: int):\n    match = await MatchPayloadDAO.get(matchStartTime=matchStartTime)\n    return StatsParser.parse_match(match.payload)\nasync def save_last_matches(last_matches: list[dict[str, Any]]):\n    send_queue = []\n    last_matches.reverse()\n    for match in last_matches:",
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "id",
+        "kind": 5,
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "peekOfCode": "id = 8529684742\nlogger = logging.getLogger(__name__)\nasync def get_match(matchStartTime: int):\n    match = await MatchPayloadDAO.get(matchStartTime=matchStartTime)\n    return StatsParser.parse_match(match.payload)\nasync def save_last_matches(last_matches: list[dict[str, Any]]):\n    send_queue = []\n    last_matches.reverse()\n    for match in last_matches:\n        if await MatchPayloadDAO.add(match):",
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "core.services.services",
+        "description": "core.services.services",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def get_match(matchStartTime: int):\n    match = await MatchPayloadDAO.get(matchStartTime=matchStartTime)\n    return StatsParser.parse_match(match.payload)\nasync def save_last_matches(last_matches: list[dict[str, Any]]):\n    send_queue = []\n    last_matches.reverse()\n    for match in last_matches:\n        if await MatchPayloadDAO.add(match):\n            oMatch = StatsParser.parse_match(match)",
+        "detail": "core.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "StatsParser",
+        "kind": 6,
+        "importPath": "core.parser",
+        "description": "core.parser",
+        "peekOfCode": "class StatsParser:\n    @staticmethod\n    def parse_last_matches(data: list):\n        adapter: TypeAdapter[LastMatchesModel] = TypeAdapter(LastMatchesModel)\n        result = adapter.validate_python(data)\n        return result\n    @staticmethod\n    def parse_match(data: dict):\n        adapter: TypeAdapter[ModelItem] = TypeAdapter(ModelItem)\n        result = adapter.validate_python(data)",
+        "detail": "core.parser",
+        "documentation": {}
+    },
+    {
+        "label": "DBDStats",
+        "kind": 6,
+        "importPath": "core.stats_api",
+        "description": "core.stats_api",
+        "peekOfCode": "class DBDStats:\n    headers = {}\n    @classmethod\n    def update_headers(cls, access_token: str):\n        cls.headers = {\n            \"Authorization\": f\"Bearer {access_token}\"\n        }\n    @classmethod\n    async def get_access_token(cls):\n        logger.info(\"Getting tokens...\")",
+        "detail": "core.stats_api",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "core.stats_api",
+        "description": "core.stats_api",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass DBDStats:\n    headers = {}\n    @classmethod\n    def update_headers(cls, access_token: str):\n        cls.headers = {\n            \"Authorization\": f\"Bearer {access_token}\"\n        }\n    @classmethod\n    async def get_access_token(cls):",
+        "detail": "core.stats_api",
+        "documentation": {}
+    },
+    {
+        "label": "MainLoop",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class MainLoop:\n    timer_task: asyncio.Task = None\n    event_loop: asyncio.AbstractEventLoop = None\n    @classmethod\n    def loop(cls):\n        cls.event_loop.call_soon_threadsafe(cls._toggle)\n    @classmethod\n    def _toggle(cls):\n        if cls.timer_task:\n            cls.timer_task.cancel()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def timer(seconds: int):\n    with Live(refresh_per_second=10) as live:\n        for sec in range(seconds, 0, -1):\n            live.update(Text(f\"Time to next response: {sec}\", style=Style(color=Color.from_rgb(0, 255, 255))))\n            await asyncio.sleep(1)\nclass MainLoop:\n    timer_task: asyncio.Task = None\n    event_loop: asyncio.AbstractEventLoop = None\n    @classmethod",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ArrayGraphDecoder",
+        "kind": 6,
+        "importPath": "nightlight_api",
+        "description": "nightlight_api",
+        "peekOfCode": "class ArrayGraphDecoder:\n    def __init__(self, data: list):\n        self.data = data\n        self.cache = {}\n    def decode(self, value: Any) -> Any:\n        if isinstance(value, int):\n            return self.resolve(value)\n        if isinstance(value, list):\n            return [self.decode(v) for v in value]\n        if isinstance(value, dict):",
+        "detail": "nightlight_api",
+        "documentation": {}
+    },
+    {
+        "label": "NightLightApi",
+        "kind": 6,
+        "importPath": "nightlight_api",
+        "description": "nightlight_api",
+        "peekOfCode": "class NightLightApi:\n    scraper = CloudScraper()    \n    @classmethod\n    async def get_redeem_codes(cls):\n        res = cls.scraper.get(\"https://nightlight.gg/codes.data?_routes=routes%2Fcodes\")\n        if res.ok:\n            data = res.json()\n            root = ArrayGraphDecoder(data).resolve(0)\n            with open(\"codes.json\", \"w\", encoding=\"utf-8\") as f:\n                json.dump(root.get(\"routes/codes\", {}).get(\"data\", {}).get(\"codes\", []), f, indent=2)",
+        "detail": "nightlight_api",
+        "documentation": {}
+    },
+    {
+        "label": "decode_array_graph",
+        "kind": 2,
+        "importPath": "nightlight_api",
+        "description": "nightlight_api",
+        "peekOfCode": "def decode_array_graph(text: str):\n    data = json.loads(text)\n    decoder = ArrayGraphDecoder(data)\n    return decoder.resolve(0)\nclass NightLightApi:\n    scraper = CloudScraper()    \n    @classmethod\n    async def get_redeem_codes(cls):\n        res = cls.scraper.get(\"https://nightlight.gg/codes.data?_routes=routes%2Fcodes\")\n        if res.ok:",
+        "detail": "nightlight_api",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "nightlight_api",
+        "description": "nightlight_api",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ArrayGraphDecoder:\n    def __init__(self, data: list):\n        self.data = data\n        self.cache = {}\n    def decode(self, value: Any) -> Any:\n        if isinstance(value, int):\n            return self.resolve(value)\n        if isinstance(value, list):\n            return [self.decode(v) for v in value]",
+        "detail": "nightlight_api",
+        "documentation": {}
+    }
+]
