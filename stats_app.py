@@ -2,7 +2,7 @@
 import asyncio
 
 from core.db.h_database import MatchPayloadDAO
-from core.parser import StatsParser
+from core.json_to_model_parser import StatsParser
 
 from core.services.services import send_match_info_into_tg
 

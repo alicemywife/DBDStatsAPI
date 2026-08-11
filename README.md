@@ -8,3 +8,5 @@ Planned:
 To use this feature, you will need to obtain a refresh token from any request on the game statistics website.
 
 The MD will be updated before the repository is published.
+
+The project has not been reviewed for publication; only future updates will focus on refactoring.
