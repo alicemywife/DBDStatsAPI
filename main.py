@@ -13,7 +13,6 @@ from core.db.h_database import Database
 from core.services.services import save_last_matches
 from core.stats_api import DBDStats
 
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(name)s | %(levelname)s | %(message)s",
@@ -23,8 +22,8 @@ logging.basicConfig(
         logging.FileHandler("log.log", encoding="utf-8")
     ]
 )
-logger = logging.getLogger(__name__)
 
+logger = logging.getLogger(__name__)
 
 async def timer(seconds: int):
     with Live(refresh_per_second=10) as live:

@@ -7,7 +7,7 @@ from core.json_to_model_parser import StatsParser
 from core.services.services import send_match_info_into_tg
 
 
-# WIP
+# WIP - TEST ONLY
 async def main():
     matches = await MatchPayloadDAO.get_all(limit=4)
     matches.reverse()
