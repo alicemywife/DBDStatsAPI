@@ -1,7 +1,14 @@
+# python
 .venv/
 __pycache__/
+**/__pycache__
+
+# IDE
 .vscode/
+
+# logs
 **/*.log
+
+#SQLITE
 **/*.db-shm
 **/*.db-wal
-**/__pycache__
