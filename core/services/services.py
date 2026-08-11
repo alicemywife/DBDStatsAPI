@@ -8,11 +8,12 @@ from aiogram.types import InputRichMessage
 
 from core.db.h_database import MatchPayloadDAO
 from core.parser import ModelItem, StatsParser
+from core.services.config import CHAT_ID, TELEGRAM_BOT_TOKEN
 from core.stats_api import DBDStats
 from core.schemas.last_matches_schema import CharacterLoadout, Perk
 
-bot = Bot(token="8374418085:AAHWaowz8jIEtCyrr3O0laBuRpwU4ANn824")
-id = 8529684742
+bot = Bot(token=TELEGRAM_BOT_TOKEN)
+id = CHAT_ID
 
 logger = logging.getLogger(__name__)
 
