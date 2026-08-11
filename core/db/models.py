@@ -9,9 +9,3 @@ class MatchPayload(Base):
 
     matchStartTime: Mapped[int] = mapped_column(unique=True)
     payload: Mapped[dict] = mapped_column(JSON)
-    
-class Asset(Base):
-    __tablename__ = "assets"
-    
-    uri: Mapped[str]
-    name: Mapped[str]

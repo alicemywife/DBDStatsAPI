@@ -6,7 +6,7 @@ from typing import Any
 from aiogram import Bot
 from aiogram.types import InputRichMessage
 
-from core.db.hDatabase import MatchPayloadDAO
+from core.db.h_database import MatchPayloadDAO
 from core.parser import ModelItem, StatsParser
 from core.stats_api import DBDStats
 from core.schemas.last_matches_schema import CharacterLoadout, Perk

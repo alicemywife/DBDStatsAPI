@@ -9,7 +9,7 @@ from rich.text import Text
 from rich.live import Live
 from rich.style import Style
 
-from core.db.hDatabase import Database
+from core.db.h_database import Database
 from core.services.services import save_last_matches
 from core.stats_api import DBDStats
 
