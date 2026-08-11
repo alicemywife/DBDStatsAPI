@@ -4,7 +4,6 @@ import datetime
 import json
 import logging
 from typing import Any
-from aiohttp import ClientSession
 from cloudscraper import CloudScraper
 
 
@@ -59,6 +58,10 @@ def decode_array_graph(text: str):
     return decoder.resolve(0)
 
 class NightLightApi:
+    
+    DATA_PATH = "data/"
+    CODES_PATH = DATA_PATH + "codes.json"
+    
     scraper = CloudScraper()    
     @classmethod
     async def get_redeem_codes(cls):
@@ -66,13 +69,13 @@ class NightLightApi:
         if res.ok:
             data = res.json()
             root = ArrayGraphDecoder(data).resolve(0)
-            with open("codes.json", "w", encoding="utf-8") as f:
+            with open(cls.CODES_PATH, "w", encoding="utf-8") as f:
                 json.dump(root.get("routes/codes", {}).get("data", {}).get("codes", []), f, indent=2)
             return root     
             
 async def main():
     codes = await NightLightApi.get_redeem_codes()
-    with open("codes.json", "r", encoding="utf-8") as f:
+    with open(NightLightApi.CODES_PATH, "r", encoding="utf-8") as f:
         last_codes = json.load(f)
     for code in codes.get("routes/codes", {}).get("data", {}).get("codes", []):
         if code.get('expired') == "routes/codes":

@@ -12,3 +12,6 @@ __pycache__/
 #SQLITE
 **/*.db-shm
 **/*.db-wal
+
+# customfiles
+**/session.json

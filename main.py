@@ -1,16 +1,18 @@
 import asyncio
+import random
+import logging
+
+import keyboard
 
 from rich.color import Color
+from rich.text import Text
+from rich.live import Live
+from rich.style import Style
 
 from core.db.hDatabase import Database
 from core.services.services import save_last_matches
 from core.stats_api import DBDStats
-from rich.text import Text
-from rich.live import Live
-from rich.style import Style
-import random
-import keyboard
-import logging
+
 
 logging.basicConfig(
     level=logging.INFO,
@@ -22,6 +24,7 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
 
 async def timer(seconds: int):
     with Live(refresh_per_second=10) as live:

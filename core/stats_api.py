@@ -86,8 +86,6 @@ class DBDStats:
             async with session.get(endpoint, headers=cls.headers) as res:
                 if res.ok:
                     result = await res.json()
-                    # with open('core/schemas/last_matches.json', 'w', encoding='utf-8') as f:
-                    #     json.dump(result, f, indent=2)
                     return result
                 elif res.status == 401:
                     await cls.get_access_token()
