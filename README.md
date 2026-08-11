@@ -5,8 +5,8 @@ Planned:
 • Create an overlay for displaying brief statistics in streaming software.
 • Create a local SaaS application for detailed work with game statistics.
 • Rewrite the hotkey system:
----->• Use a more advanced lib for keyboard
----->• Limit hotkey usage to only when the game window is active
+---> • Use a more advanced lib for keyboard
+---> • Limit hotkey usage to only when the game window is active
 
 How To Use:
 • To use this feature, you will need to obtain a refresh token from any request on the game statistics website.
