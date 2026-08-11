@@ -16,3 +16,4 @@ __pycache__/
 # customfiles
 **/session.json
 /core/services/config.py
+/data/codes.json

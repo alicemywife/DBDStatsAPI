@@ -10,7 +10,6 @@ from core.db.h_database import MatchPayloadDAO
 from core.parser import ModelItem, StatsParser
 from core.services.config import CHAT_ID, TELEGRAM_BOT_TOKEN
 from core.stats_api import DBDStats
-from core.schemas.last_matches_schema import CharacterLoadout, Perk
 
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
 id = CHAT_ID
@@ -196,22 +195,23 @@ async def send_match_info_into_tg(match: ModelItem):
                     </blockquote>
                     <summary>{opp.characterName.name} - {DBDDicts.PlayerStatus.get(opp.playerStatus and opp.playerStatus.id) or opp.killerMatchStatus}</summary>
                     <blockquote><h5>Perks</h5><br>
-                        {"<br>".join([f"<a href=\"https://deadbydaylight.wiki.gg/wiki/{perk.name.replace(" ", "_")}\">{perk.name}</a>" for perk in opp.characterLoadout.perks])}
+                        {"<br>".join([f"<a href=\"https://deadbydaylight.wiki.gg/wiki/{perk.name.replace(" ", "_")}\">{perk.name}</a>" for perk in opp.characterLoadout.perks or []])}
                     </blockquote>
                     <blockquote><h5>Power</h5><br>                   
                         <a href=\"https://deadbydaylight.wiki.gg/wiki/{opp.characterLoadout.power and opp.characterLoadout.power.name.replace(" ", "_") or "[NO URL]"}\">{opp.characterLoadout.power and opp.characterLoadout.power.name or "[NO POWER]"}</a><br>
-                        {"<br>".join([f"+ <a href=\"https://deadbydaylight.wiki.gg/wiki/{addon.name.replace(" ", "_").replace("’", "%27").replace("‘", "%27")}\">{addon.name}</a>" for addon in opp.characterLoadout.addOns])}
+                        {"<br>".join([f"+ <a href=\"https://deadbydaylight.wiki.gg/wiki/{addon.name.replace(" ", "_").replace("’", "%27").replace("‘", "%27")}\">{addon.name}</a>" for addon in opp.characterLoadout.addOns or []])}
                     </blockquote>
                     <blockquote><h5>Offering</h5><br>
                     <a href=\"https://deadbydaylight.wiki.gg/wiki/{opp.characterLoadout.offering and opp.characterLoadout.offering.name.replace(" ", "_") or "[NO URL]"}\">{opp.characterLoadout.offering and opp.characterLoadout.offering.name or "[NO OFFERING]"}</a>
                 </details>
-                """ for opp in match.opponentStat]
+                """ for opp in match.opponentStat or []]
                 )
             }         
         </details>
         '''
-    if await bot.send_rich_message(chat_id=id, rich_message=InputRichMessage(html=text)):
+    try:
+        if await bot.send_rich_message(chat_id=id, rich_message=InputRichMessage(html=text)):
+            return True
+    finally:
         await bot.session.close()
-        return True
-    await bot.session.close()
     return False
